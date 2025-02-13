@@ -7,8 +7,24 @@ body {
     margin: 0;
     height: 100vh;
 }
-
-.left {
+.reg-left{
+  background-color: white;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-right{
+  font-family: "Monsieur La Doulaise", serif;
+    color: #ffffff;
+    font-size: 5vw;
+    background-color: #141414;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.log-left {
     font-family: "Monsieur La Doulaise", serif;
     color: #ffffff;
     font-size: 5vw;
@@ -19,7 +35,7 @@ body {
     align-items: center;
 }
 
-.right {
+.log-right {
     background-color: white;
     flex: 1;
     display: flex;
